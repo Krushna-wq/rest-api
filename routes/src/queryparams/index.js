@@ -34,7 +34,7 @@ app.get('/books/filter', (req, res) => {
 });
 
 app.post('/books', (req, res) => {
-    res.status(201).send("Book Added").json(req.body);
+    res.status(201).send("Book Added").json(eq.body);
     console.log(req.body);
 })
 
